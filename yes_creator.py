@@ -10,7 +10,7 @@ __license__ = "MIT"
 
 # import wx
 from gooey import Gooey, GooeyParser
-import yesc
+import yesc.yesc as yesc
 
 
 localAIPstr = ''
@@ -180,6 +180,8 @@ def main():
     
     
     main_group.add_argument("-export", "-e", "--export", action='store_true', default=True, help='Export files to content subdirectory of sip', gooey_options=item_default, metavar='Export')
+    
+    main_group.add_argument("-excludedFileNames", "-ef", "--excludedFileNames", default='', help='Comma separated list of file names to  exclude during SIP creation')
     
     args = parser.parse_args()
         

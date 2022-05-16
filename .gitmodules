@@ -1,0 +1,3 @@
+[submodule "yesc"]
+	path = yesc
+	url = https://github.com/decirella/yesc
