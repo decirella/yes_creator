@@ -1,5 +1,5 @@
 # Yes Creator
-![YESCreator logo](https://user-images.githubusercontent.com/5248243/173145619-2d5391b5-0509-475d-bd53-7acf89f1e12b.png)
+![YESCreator logo](images/config_icon.png)
 ## Yale Easy Sip Creator
 
 GUI implemented for working with the [yesc](https://github.com/decirella/yesc) based SIP creator.
