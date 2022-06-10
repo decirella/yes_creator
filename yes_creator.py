@@ -52,7 +52,7 @@ item_default = item_light
 gooey_default = ''
 
 # Primary Gooey settings and About menu info
-@Gooey(program_name='YES Creator',tabbed_groups=True, advanced=True, default_size=(750, 1050),  menu=[{'name': 'Help', 'items': [{
+@Gooey(program_name='YES Creator', image_dir='./images', tabbed_groups=True, advanced=True, default_size=(750, 1050),  menu=[{'name': 'Help', 'items': [{
     'type': 'AboutDialog',
     'menuTitle': 'About',
     'name': 'SIP Creator',
