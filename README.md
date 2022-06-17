@@ -19,7 +19,7 @@ GUI implemented for working with the [yesc](https://github.com/decirella/yesc) b
 ### Build from source Instructions
 Using `pyinstaller` to build on windows  
 
-```pyinstaller.exe --onefile --exclude-module _bootlocale .\yes_creator.py```
+```pyinstaller.exe --onefile --exclude-module _bootlocale --icon=.\images\icon.ico .\yes_creator.py```
 
 
 
