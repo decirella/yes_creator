@@ -9,6 +9,7 @@ __version__ = "0.1.3"
 __license__ = "MIT"
 
 # import wx
+from pathlib import Path
 from gooey import Gooey, GooeyParser
 import yesc.yesc as yesc
 
@@ -52,7 +53,7 @@ item_default = item_light
 gooey_default = ''
 
 # Primary Gooey settings and About menu info
-@Gooey(program_name='YES Creator', image_dir='./images', tabbed_groups=True, advanced=True, default_size=(750, 1050),  menu=[{'name': 'Help', 'items': [{
+@Gooey(program_name='YES Creator', image_dir=Path('images'), tabbed_groups=True, advanced=True, default_size=(750, 1050),  menu=[{'name': 'Help', 'items': [{
     'type': 'AboutDialog',
     'menuTitle': 'About',
     'name': 'SIP Creator',
