@@ -184,8 +184,18 @@ def main():
     
     main_group.add_argument("-excludedFileNames", "-ef", "--excludedFileNames", default='', help='Comma separated list of file names to  exclude during SIP creation')
     
+    
+    # new CLI options - hidden in UI
+    main_group.add_argument("-storage", "-sk", "--storage",  help='path to storage keyword doc', gooey_options={'visible': False})
+    main_group.add_argument("-storageconfig", "-skc", "--storageconfig", help='Location of storage config', gooey_options={'visible': False})
+    
+    main_group.add_argument("-prefix", "-pf", "--prefix", default='', help='String to prefix SO title with', gooey_options={'visible': False})
+    
+    
+    #
+    
     args = parser.parse_args()
-        
+      
     # calls module with args from GUI input
     yesc.main(args)
     
