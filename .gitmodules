@@ -1,1 +1,4 @@
 
+[submodule "yesc"]
+	path = yesc
+	url = git@github.com:decirella/yesc.git
