@@ -1,5 +1,5 @@
 
 [submodule "yesc"]
 	path = yesc
-	url = git@github.com:decirella/yesc.git
+	url = https://github.com:decirella/yesc.git
 	shallow = true
